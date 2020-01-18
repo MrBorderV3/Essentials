@@ -1,0 +1,108 @@
+name: Essentials
+version: 1.0.0
+main: me.border.Main
+author: MrBorder
+description: Custom Essentials made by MrBorder
+
+commands:
+  fly:
+    aliases: [flight]
+
+  feed:
+    aliases: [eat]
+    description: Restores the player to full hunger
+
+  heal:
+    aliases: [restore]
+    description: Restores the player to full health and hunger and clears all existing potion effects
+
+  smite:
+    aliases: [lightning]
+    description: Casts a lightning on the designated player/area
+
+  tp:
+    aliases: [teleport]
+    description: Teleports to a player
+
+  tpall:
+    aliases: [teleportall]
+    description: Teleports everyone online to the player casting it
+
+  tphere:
+    aliases: [teleporthere]
+    description: Teleports a player to the player casting the command
+
+  god:
+    aliases: [godmode]
+    description: Makes a player invulnerable
+
+  #getpos:
+   #aliases: [getposition]
+    #description: Displays a player's current position
+
+  gamemode:
+    aliases: [gm]
+    description: Allows the control of a player's GameMode
+
+  nick:
+    aliases: [nickname]
+    description: Changes a player's display name
+
+  realname:
+    aliases: [rname]
+    description: Checks a display name for the user using it
+
+  gms:
+    aliases: [gm0]
+    description: Changes a player's GameMode to survival
+
+  gmc:
+    aliases: [gm1]
+    description: Changes a player's GameMode to creative
+
+  gma:
+    aliases: [gm2]
+    description: Changes a player's GameMode to adventure
+
+  gmsp:
+    aliases: [gm3]
+    description: Changes a player's GameMode to spectator
+
+  kill:
+    aliases: [murder]
+    description: Kills a designated player
+
+  suicide:
+    aliases: [killself]
+    description: Kills the player executing the command and broadcasts to the server
+
+  message:
+    aliases: [msg]
+    description: Messages a designated player
+
+  reply:
+    aliases: [r]
+    description: Replies to the last message sent to you
+
+  mute:
+    aliases: [silence]
+    description: Mutes a deisngated player
+
+  broadcast:
+    aliases: [bc]
+    description: Broadcasts a message to all players on the server
+
+  alert:
+    description: Alerts a message to all players on the server
+
+  speed:
+    description:
+
+  freezechat:
+    aliases: [fc]
+
+  burn:
+    aliases: [fire]
+
+  kick:
+    description: 

@@ -1,0 +1,117 @@
+#Message sent to console when command can not be run by console
+console_error_message: '&8[&eEssentials&8] &cYou are unable to execute this command!'
+
+#Not Enough Arguments message
+notEnoughArguments: '&8[&eEssentials&8]&c Error! Illegal arguments! Please try again with the correct arguments!'
+
+#Player offline message
+player_offline_message: '&8[&eEssentials&8] &cThe player you have entered is offline!'
+
+#No permission message
+no_perm_message: '&8[&eEssentials&8] &cYou do not have permission to execute this command!'
+
+#Fly Command Below
+Fly:
+  fly_disabled_message: '&8[&eEssentials&8] &6Fly &cDisabled&6!'
+  fly_enabled_message: '&8[&eEssentials&8] &6Fly &aEnabled&6!'
+  fly_enabled_others_message: '&8[&eEssentials&8] &6You have &aEnabled&6 fly for&b'
+  fly_disabled_others_message: '&8[&eEssentials&8] &6You have &cDisabled&6 fly for&b'
+
+#Feed Command Below
+Feed:
+  feed_message: '&8[&eEssentials&8] &6You have been &aFed&6!'
+  feed_others_message: '&8[&eEssentials&8] &6You have successfully &aFed&b'
+
+#Heal Command Below
+Heal:
+  heal_message: '&8[&eEssentials&8] &6You have been &aHealed&6!'
+  heal_others_message: '&8[&eEssentials&8] &6You have successfully &aHealed&b'
+
+#Smite Command Below
+Smite:
+  smite_player_successful: '&8[&eEssentials&8] &6You have successfully smitten&b'
+  smitten: '&8[&eEssentials&8] &6You have been &cSmitten&6!'
+  smite_successful: '&8[&eEssentials&8] &6You have successfully &cSmitten&6 the area!'
+
+#Teleport & TeleportAll & TeleportHere Command Below
+Teleport:
+  teleport_error: '&8[&eEssentials&8] &cPlease enter a player name to teleport to!'
+  teleport_successful: '&8[&eEssentials&8]&6 Successfully teleported to &b'
+  teleport_all_successful: '&8[&eEssentials&8]&6 Successfully teleported &ball&6 players to you!'
+  teleport_here_successful: '&8[&eEssentials&8]&6 Successfully teleported&b'
+  teleported_here: '&8[&eEssentials&8]&6 You have been teleported!'
+
+#God Command Below
+God:
+  god_enabled_message: '&8[&eEssentials&8] &6God mode enabled!'
+  god_disabled_message: '&8[&eEssentials&8] &6God mode disabled'
+  god_disabled_others_message: '&8[&eEssentials&8] &6God mode disabled for&b'
+  god_enabled_others_message: '&8[&eEssentials&8]&6 God mode enabled for&b'
+
+#Gamemode & GM Command Below
+Gamemode:
+  gamemode_survival_message: '&8[&eEssentials&8] &6Set GameMode to &aSurvival&6!'
+  gamemode_creative_message: '&8[&eEssentials&8] &6Set GameMode to &aCreative&6!'
+  gamemode_adventure_message: '&8[&eEssentials&8] &6Set GameMode to &aAdventure&6!'
+  gamemode_spectator_message: '&8[&eEssentials&8] &6Set GameMode to &aSpectator&6!'
+  incorrect_usage: '&8[&eEssentials&8]&c Incorrect usage! please use a number between 0-3!'
+  current_gamemode: '&8[&eEssentials&8]&6 Your current GameMode is'
+  gamemode_survival_others_message: '&8[&eEssentials&8] &6Set GameMode to &aSurvival&6 for &b'
+  gamemode_creative_others_message: '&8[&eEssentials&8] &6Set GameMode to &aCreative&6 for &b'
+  gamemode_adventure_others_message: '&8[&eEssentials&8] &6Set GameMode to &aAdventure&6 for &b'
+  gamemode_spectator_others_message: '&8[&eEssentials&8] &6Set GameMode to &aSpectator&6 for &b'
+
+#Nick & Realname Commands Below
+Nick:
+  incorrect_usage: '&8[&eEssentials&8] &cIncorrect usage! please insert a desired name after /nick!'
+  nick_changed: '&8[&eEssentials&8] &6Your nickname has been changed successfully!'
+  nick_reset: '&8[&eEssentials&8]&6 Nickname reset!'
+  nick_taken: '&8[&eEssentials&8]&c Your desired nickname is taken! Please use different nickname!'
+  player_not_nicked: '&8[&eEssentials&8]&c The nick you have entered is not used or the player using the nick is offline! Please try a different nickname!'
+Realname:
+  incorrect_usage: '&8[&eEssentials&8]&c Incorrect usage! please insert the name of the player after /realname!'
+
+#Kill Command Below
+Kill:
+  killed: '&8[&eEssentials&8]&c You have been murdered! I wonder who it is...'
+  killed_others: '&8[&eEssentials&8]&c You have murdered &b'
+
+#Suicide Command Below
+Suicide:
+  suicide: '&8[&eEssentials&8]&6 You have successfully performed suicide! but why!?'
+
+#Mute Command Below
+Mute:
+  userNotification: '&8[&eEssentials&8]&4 Your actions have consequences! You have been permanently muted by'
+  modNotification: '&8[&eEssentials&8]&6 You have successfully muted'
+  muted_chat_message: '&8[&eEssentials&8]&c You are muted and cannot talk! Your actions have consequences!'
+  player_already_muted: '&8[&eEssentials&8]&c The designated player is already muted!'
+
+#Message Command Below
+Message:
+  reply_offline_message: '&8[&eEssentials&8]&c Error! reply target is offline!'
+
+#Speed Command Below
+Speed:
+  walk_speed_changed: '&8[&eEssentials&8]&6 Your walk speed has been changed to&b '
+  fly_speed_changed: '&8[&eEssentials&8]&6 Your fly speed has been changed to&b '
+  current_walk_speed: '&8[&eEssentials&8]&6 Your current walk speed is&b '
+  current_fly_speed: '&8[&eEssentials&8]&6Your current fly speed is&b'
+  speed_others_successfully: '&8[&eEssentials&8]&6 You have successfully changed &b'
+
+#FreezeChat Command Below
+FreezeChat:
+  chat_frozen_message: '&8[&eEssentials&8]&6 You have successfully frozen the chat!'
+  chat_frozen_global: '&4&lNotice! Chat Has Been Frozen By Staff!'
+  player_frozen_message: '&8[&eEssentials&8]&c Chat is frozen and you are unable to speak! Please wait until chat is unfrozen!'
+  chat_unfrozen_message: '&8[&eEssentials&8]&6 You have successfully unfrozen the chat!'
+  chat_unfrozen_global: '&4&lNotice! Chat Has Been Unfrozen By Staff!'
+
+#Burn Command Below
+Burn:
+  burn: '&8[&eEssentials&8]&c You suddenly feel very warm...'
+  burn_others: '&8[&eEssentials&8]&c You have set&b '
+
+#Kick Command Below
+Kick:
+  kick_successful: '&8[&eEssentials&8] &6You have successfully kicked &b'
